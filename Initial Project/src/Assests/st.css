@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+}
+.contain1{
+    
+    background-color:lightgray;
+    border-radius:20px;
+    width:30vw;
+    
+
+}
+.container1{
+    height:100vh;
+    width:100wv;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+            background-image: url('https://wallpapers.com/images/hd/professional-background-9clg4ra15cwxpfk5.jpg');
+            background-repeat: no-repeat;
+            background-size: cover; 
+}
+.contain1 .buttonName{
+    width:150px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(97, 97, 247);
+    margin-top: 10px;
+}
+body{
+    margin: 0; 
+    background: #B993D6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.nav{
+   
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: rem;
+    padding : 0 2rem;
+    height: 4rem;
+    
+}
+.site_title{
+    font-size: 5rem;
+    justify-content: center;
+    align-items: left;
+}
+.nav ul {
+    padding: 0;
+    margin: 4 px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+.nav a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    transition-duration: 2s;
+
+}
+.fx1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:40pt;
+    
+    
+}
+.fx2
+{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size:30pt;
+    font-family: 'Papyrus', Fantasy;
+}
+.fx3
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    height:50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+.fx3 button
+{
+width:150px;
+height: 35px;
+border-radius: 10px;
+background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a);
+
+}
+.fx3 button:hover
+{
+    background-color: white;
+
+}
+.home-image
+{
+    display:flex;
+    justify-content:center;
+}
